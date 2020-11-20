@@ -1,0 +1,16 @@
+.archive {
+
+    margin-top: 3em;
+
+    &__title {
+        font-weight: 700;
+    }
+
+    &__content {
+        text-transform: uppercase;
+        margin-top: 1em;
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+
+}

@@ -1,0 +1,23 @@
+// Définir les couleurs
+$yellow: #FFEC00;
+$black: #000;
+$white: #F6F7F9;
+$pink: #F0F;
+
+// Attribuer les couleurs
+$main-color: $yellow;
+$bg-color: $white;
+$text-color: $black;
+
+// Définir les tailles de fonts
+$default-font-size: 15px;
+$medium-font-size: 18px;
+
+// Définir les font family
+$font-family: Montserrat, sans-serif;
+$font-family-fallback: Helvetica, Arial, sans-serif;
+
+// Définition de la variable '$fa-font-path' nécessaire
+// pour le chargement des fichiers de typo FA
+// Ici, on remplace la valeur par défaut de FA par celle ci-dessous
+$fa-font-path: '~font-awesome/fonts';

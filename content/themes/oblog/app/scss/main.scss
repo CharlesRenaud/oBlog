@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+// 1. Inclusion de nos abstracts
+@import
+    'abstracts/vars';
+
+// 2. Inclustion de nos vendors
+
+// Ici, pas de dossier vendors (on importe tout avec npm)
+// On a dispo le '~' pour accéder à node_modules
+
+@import
+    '~reset-css/sass/reset',
+    '~font-awesome/scss/font-awesome';
+
+// 3. Import de la base
+@import
+    'base/base';
+
+// 4. Import des layouts
+@import
+    'layout/header',
+    'layout/main',
+    'layout/sidebar',
+    'layout/footer';
+
+// 5. Import des components
+@import
+    'components/logo',
+    'components/main-nav',
+    'components/search',
+    'components/action-button',
+    'components/archive',
+    'components/post',
+    'components/social-nav',
+    'components/sign',
+    'components/copyright';
+
+// 6. Import du shame
+@import
+    'shame';

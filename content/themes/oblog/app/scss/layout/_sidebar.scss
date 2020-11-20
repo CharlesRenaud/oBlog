@@ -1,0 +1,10 @@
+.sidebar {
+    margin-top: 3.5em;
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
+    }
+}

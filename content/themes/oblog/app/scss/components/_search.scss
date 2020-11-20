@@ -1,0 +1,31 @@
+.search {
+
+    margin-right: 0.6em;
+
+    &__form {
+        display: flex;
+        align-items: center;
+
+        &__label {
+            font-size: 1.3em;
+            margin-right: 0.5em;
+        }
+
+        &__field {
+            border: none;
+            background: none;
+            font-weight: 500;
+            width: 100px;
+
+            &::placeholder {
+                color: $text-color;
+            }
+
+            &:focus {
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+}

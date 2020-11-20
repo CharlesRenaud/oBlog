@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__tools {
+        display: flex;
+        align-items: center;        
+    }
+}
